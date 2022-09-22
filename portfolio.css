@@ -6,37 +6,43 @@ body {
     background-position-y:top;
     position:relative;
     margin: 0px;
-    min-height: 1920px;
+    min-height: 1900px;
     background-attachment: scroll;
 }
 h1 {
+    position:static;
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif, sans-serif;
     font-size: 100px;
     position: center;
     text-align: center;
-    color: white;
+    color: #fdfdfd;
     margin: 1px;
     padding: 1px;
+    opacity: 75%;
 }
 h2 {
-    position: center;
+    position: relative;
     text-align: center;
-    color: white;
+    color: #cdeded;
     margin: 1px;
     padding: 1px;
 }
 .topnav {
+    z-index: 100;
+    position: fixed;
     opacity: 80%;
-    background-color: #a2a2c0;
+    background-color: #5b5b5b;
     background: darken;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    width: 100%;
+    top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #9090f0;
     text-align: center;
     padding:20px 20px;
     text-decoration: none;
