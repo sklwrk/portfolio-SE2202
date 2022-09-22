@@ -5,9 +5,50 @@ body {
     background-position-x: center;
     background-position-y:top;
     position:relative;
+    margin: 0px;
+    min-height: 1920px;
+    background-attachment: scroll;
 }
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 100px;
     position: center;
+    text-align: center;
     color: white;
+    margin: 1px;
+    padding: 1px;
 }
+h2 {
+    position: center;
+    text-align: center;
+    color: white;
+    margin: 1px;
+    padding: 1px;
+}
+.topnav {
+    opacity: 80%;
+    background-color: #a2a2c0;
+    background: darken;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding:20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.topnav a.active {
+    background-color: #20204A;
+    color: white;
+  }
